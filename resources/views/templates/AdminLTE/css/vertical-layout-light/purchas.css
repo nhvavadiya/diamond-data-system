@@ -1,0 +1,37 @@
+.modal-dialog
+{
+    width:40%;
+}
+.form-control{
+    border-radius: 0px;
+}
+.tbl-purchas-header td.meta-head {
+text-align: left;
+width: 115px;
+background: #eee;
+font-size: 13px;
+padding: 10px;
+}
+
+.tbl-purchas-header{
+    width: -webkit-fill-available;
+}
+.tbl-purchas-header td, table th {
+    border: 1px solid #ddd;
+    padding: 1px 10px;
+}
+td input[type=text] {
+    border: 0;
+    font: 13px Roboto, Serif;
+    overflow: hidden;
+    resize: none;
+    padding: 15px;
+}
+select.form-control{
+    outline: 0px;
+    border:none;
+}
+textarea.form-control
+{
+    border:none;
+}

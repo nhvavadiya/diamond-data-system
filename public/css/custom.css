@@ -1,0 +1,225 @@
+.create-invoice .tbl-invoice-header td input[type=text] {
+    text-transform: none;
+}
+
+.data-table .icon {
+    font-size: 28px !important;
+}
+
+.data-table .edit-icon {
+    color: #71c016 !important;
+}
+
+.data-table .delete-icon {
+    color: #ff4747 !important;
+}
+
+.data-table .table {
+    width: 100% !important;
+}
+
+.create-invoice input[type=text], .create-invoice select {
+    border: 0;
+    font: 14px Roboto, Serif;
+    overflow: hidden;
+    resize: none;
+    padding: 1px;
+}
+
+.create-invoicetable {
+    border-collapse: collapse;
+}
+
+.create-invoicetable td, table th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.create-invoice #header {
+    height: 15px;
+    width: 100%;
+    margin: 20px 0;
+    background: #222;
+    text-align: center;
+    color: white;
+    font: bold 15px Roboto, Sans-Serif;
+    text-decoration: uppercase;
+    letter-spacing: 20px;
+    padding: 8px 0px;
+}
+
+.create-invoice #address {
+    width: 250px;
+    height: 150px;
+    float: left;
+}
+
+.create-invoice .edit #logohelp {
+    display: block;
+}
+
+.create-invoice .edit #save-logo, .edit #cancel-logo {
+    display: inline;
+}
+
+.create-invoice .edit #image, #save-logo, #cancel-logo, .edit #change-logo, .edit #delete-logo {
+    display: none;
+}
+
+.create-invoice #customer-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.create-invoice .tbl-invoice-header {
+    margin-top: 1px;
+    width: 100%;
+}
+
+
+.create-invoice .tbl-invoice-header td {
+    text-align: right;
+    border: 1px solid #ddd;
+    padding: 3px 10px !important;
+}
+
+.create-invoice .tbl-invoice-header td.meta-head {
+    text-align: left;
+    width: 125px;
+    background: #eee;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.create-invoice .tbl-invoice-header td input[type=text] {
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    line-height: 28px;
+    font-size: 14px;
+    text-transform: none;
+}    
+
+.create-invoice .tbl-invoice-header.sec {
+    float: right;
+}
+
+.create-invoice .tbl-invoice-header.customer {
+    width: 500px
+}
+
+.create-invoice #items {
+    clear: both;
+    width: 100%;
+    margin: 30px 0 0 0;
+    border: 1px solid #ddd;
+}
+
+.create-invoice #items th {
+    background: #eee;
+    text-align: left;
+    width: 125px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.create-invoice #items input[type=text] {
+    width: 100%;
+    height: 30px;
+}
+
+.create-invoice #items tr.item-row td {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    /* padding: 10px; */
+    padding: 10px 0px;
+}
+
+.create-invoice #items td.description {
+    width: 300px;
+}
+
+.create-invoice #items td.item-name {
+    width: 175px;
+}
+
+.create-invoice #items td.description input[type=text], #items td.item-name input[type=text] {
+    width: 100%;
+}
+
+.create-invoice #items td.total-line {
+    border-right: 0;
+    text-align: right;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.create-invoice #items td.total-value {
+    border-left: 0;
+    padding: 10px;
+}
+
+.create-invoice #items td.total-value input[type=text] {
+    height: 20px;
+    background: none;
+    font-size: 16px;
+}
+
+.create-invoice input[type=text]:hover, .create-invoice input[type=text]:focus {
+    background: #fffbdb;
+}
+
+.create-invoice #items td.balance {
+    background: #eee;
+}
+
+.create-invoice #items td.blank {
+    border: 0;
+}
+
+.create-invoice #terms {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.create-invoice #terms h5 {
+   
+    font: 13px Roboto, Sans-Serif;
+    letter-spacing: 10px;
+    border-bottom: 1px solid black;
+    padding: 0 0 8px 0;
+    margin: 0 0 8px 0;
+}
+
+.create-invoice #terms input[type=text] {
+    width: 100%;
+    text-align: center;
+}
+
+.create-invoice .delete {
+  width: 25px;
+  height: 25px;
+}
+.create-invoice .due {
+    color: red;
+}
+.add_gia_row{
+    border: 1px solid #ddd !important;
+    margin-right: 40px;
+}
+.add_gia_row-a{
+    font: 14px Roboto, Serif;
+     overflow: hidden;
+     resize: none; 
+     padding: 15px;
+     width: 15%;
+     border: 1px solid #ddd !important;
+     margin-right: 40px;
+     
+}
+.create-invoice select:hover, .create-invoice select:focus {
+    background: #fffbdb;
+}
+
+
+/*.create-invoice #hiderow,.delete { display: none; }*/
