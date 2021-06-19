@@ -7,12 +7,6 @@ jobs:
     runs-on: diamond-dev
     steps: 
       - uses: actions/checkout@v2
-      - run: cd /var/www/diamond
-      - run: git pull
-      - run: php artisan db:migrate
-      - run: php artisan config:clear
-      - run: php artisan view:clear
-     
         env:
           CI: true
 
